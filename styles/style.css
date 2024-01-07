@@ -18,6 +18,15 @@ body {
   color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--syne);
+}
+
 /* common styles */
 .container {
   width: 80%;
@@ -33,7 +42,7 @@ body {
 
 /* header section styles */
 #header {
-    padding-top: 48px;
+  padding-top: 48px;
 }
 #header nav {
   display: flex;
@@ -70,4 +79,43 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.3);
   background: rgba(3, 3, 4, 0.5);
   opacity: 0.8;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 93px;
+  margin-top: 195px;
+}
+
+#hero .heading {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  max-width: 891px;
+  font-family: var(--syne);
+}
+
+#hero .explore-btn {
+  border-radius: 32.5px;
+  background: #ff9142;
+  padding: 24px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #f4f7fa;
+  text-align: center;
+  font-family: var(--rubik);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.625px;
+  text-transform: uppercase;
+}
+
+#hero .explore-btn .arrow {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
