@@ -100,7 +100,7 @@ h6 {
 }
 
 #hero .explore-btn {
-  border-radius: 32.5px;
+  border-radius: 40px;
   background: #ff9142;
   padding: 24px 40px;
   display: flex;
@@ -119,3 +119,42 @@ h6 {
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+/* about me section */
+#about {
+  margin: 230px 0;
+}
+#about .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 58px;
+}
+#about .left-col .heading {
+  max-width: 516px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+}
+#about .left-col .description {
+  color: #a8a8a8;
+  font-family: var(--rubik);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 154.5%;
+  letter-spacing: 0.99px;
+  max-width: 625px;
+  margin-top: 26px;
+}
+
+#about .left-col .more-about-me-btn {
+  padding: 20px 50px;
+  border-radius: 47px;
+  background: #ff9142;
+  color: #fdfdfd;
+  font-family: var(--rubik);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 76px;
+}
+
